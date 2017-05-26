@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e -x
+
+# Adding fxinnovation config file for mysql
+mv /resources/fxinnovation.cnf /etc/mysql/conf.d/fxinnovation.cnf

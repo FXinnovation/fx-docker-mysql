@@ -1,0 +1,4 @@
+# Adding this line will prevent error if you mount a folder in the container that conains lost+found
+# More info: http://www.chriscalender.com/ignoring-the-lostfound-directory-in-your-datadir/
+[mysqld]
+ignore-db-dir=lost+found
